@@ -1,0 +1,78 @@
+
+.carousel-peragrap{
+    color: #929292;
+}
+.carousel-button{
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    padding:10px 20px;
+}
+.container{
+    margin-bottom: 100px;
+
+}
+.carousel-bg1{
+    background-image: url(bg-1.png);
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    background-position: center;
+}
+.bg-2{
+    background-image: url(bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.cat-heading{
+    padding-bottom: 10px;
+}
+.see{
+    color: #FFA618;
+}
+.card-button{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px lightgray;
+}
+.card-inner{
+    padding: 50px;
+}
+.card1{
+    border-radius: 0px 20px;
+    box-shadow: 0px 0px 10px 2px lightgray;
+}
+.card2{
+    border-radius: 20px 0px;
+    box-shadow: 0px 0px 10px 2px lightgray;
+}
+.card-padding{
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.img-size{
+    width: 80%;
+}
+.catagories{
+    text-align: center;
+}
+.box-small{
+    background-image: linear-gradient(to right,#ffc61f 0%, #ff9c35 100%);
+    width:150px;
+    height: 10px;
+    border-radius: 10px;
+}
+.carousel-indicators li{
+    background-color: black;
+    width: 20px;
+    height: 10px;
+    border-radius: 42%;
+}
+.carousel-indicators .active{
+    background-image: linear-gradient(to right, #ffb429 0%, #ffd019 100%);
+    width: 50px;
+}
